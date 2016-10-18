@@ -273,18 +273,7 @@
                     <Item id="45011" name="Convertir en UTF-8"/>
                     <Item id="45012" name="Convertir en UTF-16BE"/>
                     <Item id="45013" name="Convertir en UTF-16LE"/>
-                    <Item id="45053" name="OEM 860: Portugais"/>
-                    <Item id="45054" name="OEM 861: Islandais"/>
-                    <Item id="45056" name="OEM 863: Français"/>
-                    <Item id="45057" name="OEM 865: Nordique"/>
-                    <Item id="45060" name="Big5 (Traditionnel)"/>
-                    <Item id="45061" name="GB2312 (Simplifié)"/>
                     <Item id="46001" name="Configurateur de coloration syntaxique..."/>
-                    <Item id="46015" name="MS-DOS Style"/>
-                    <Item id="46016" name="Normal Texte"/>
-                    <Item id="46017" name="Ressource fichier"/>
-                    <Item id="46019" name="MS INI fichier"/>
-                    <Item id="46033" name="Assembleur"/>
                     <Item id="46150" name="Définissez votre langage..."/>
                     <Item id="46080" name="Langage utilisateur"/>
                     <Item id="47000" name="À propos de Notepad++..."/>
@@ -687,26 +676,35 @@
                     <Item id="6413" name="Dossier par défaut (ouvrir/enregistrer)"/>
                     <Item id="6414" name="Utiliser celui du document actuel"/>
                     <Item id="6415" name="Mémoriser le dernier dossier utilisé"/>
-																				<Item id="6430" name="Activer le nouveau style de dialogue d'enregistrement (sans l'extension de fichier supporté)"/>
-																				<Item id="6431" name="Lors de drag and drop d'un dossier, ouvrir tous les fichier dans le dossier"/>
+					<Item id="6430" name="Activer le nouveau style de dialogue d'enregistrement (sans l'extension de fichier supporté)"/>
+					<Item id="6431" name="Lors de drag and drop d'un dossier, ouvrir tous les fichier dans le dossier"/>
                 </DefaultDir>
 
                 <FileAssoc title="Extensions de fichier">
                   <Item id="4009" name="Extensions :"/>
                   <Item id="4010" name="Extensions associées :"/>
                 </FileAssoc>
-                <LangMenu title="Menu langage">
+                <Language title="Langage">
                     <Item id="6505" name="Langages disponibles"/>
                     <Item id="6506" name="Langages cachés"/>
                     <Item id="6507" name="Compacter le menu Langage"/>
                     <Item id="6508" name="Menu Langage"/>
-                </LangMenu>
-                <TabSettings title="Tabulations">
-                    <Item id="6301" name="Tabulations"/>
+					<Item id="6301" name="Tabulations"/>
                     <Item id="6302" name="Insérer des espaces"/>
                     <Item id="6303" name="Taille : "/>
                     <Item id="6510" name="Valeur par défaut"/>
-                </TabSettings>
+                </Language>
+                <Highlighting title="Coloration">
+                    <Item id="6333" name="Sélectionner et montrer tout"/>
+                    <Item id="6326" name="Activer le coloriage automatique"/>
+                    <Item id="6332" name="Case sensible"/>
+					<Item id="6338" name="Mot entier uniquement"/>
+					<Item id="6339" name="Utiliser les paramètres de Recherche"/>
+                    <Item id="6329" name="Surligner les tags ouverture/fermeture"/>
+                    <Item id="6327" name="Activer"/>
+                    <Item id="6328" name="Les attributs de tag"/>
+                    <Item id="6330" name="Dans la zone commentaire/php/asp"/>
+                </Highlighting>
                 <Print title="Impression">
                     <Item id="6601" name="Imprimer les numéros de lignes"/>
                     <Item id="6602" name="Couleur"/>
@@ -829,14 +827,7 @@
                     <Item id="6323" name="Activer la mise à jour automatique"/>
                     <Item id="6324" name="Commutateur de documents (Ctrl+Tab)"/>
                     <Item id="6325" name="Aller à la dernière ligne après mise à jour"/>
-                    <Item id="6326" name="Activer le coloriage automatique"/>
-                    <Item id="6327" name="Activer"/>
-                    <Item id="6328" name="Les attributs de tag"/>
-                    <Item id="6329" name="Surligner les tags ouverture/fermeture"/>
-                    <Item id="6330" name="Dans la zone commentaire/php/asp"/>
                     <Item id="6331" name="Afficher seulement le nom du fichier dans la barre de titre"/>
-                    <Item id="6332" name="Case sensible"/>
-                    <Item id="6333" name="Sélectionner et montrer tout"/>
 					<Item id="6334" name="Détecter l'encodage automatiquement"/>
 					<Item id="6335" name="Backslash : caractère d'échappement pour SQL"/>
 					<Item id="6337" name="Ext fichier Espace de travail :"/>
