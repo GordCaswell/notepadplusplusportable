@@ -3,7 +3,12 @@ ${SegmentFile}
 ${SegmentPrePrimary}
 	ReadEnvStr $0 PAL:LanguageCustom
 
-	Delete "$EXEDIR\App\Notepad++\nativeLang.xml"
+	${If} ${FileExists} "$EXEDIR\Data\Config\nativeLang.xml"
+		Delete "$EXEDIR\Data\Config\nativeLang.xml"
+	${ElseIf} ${FileExists} "$EXEDIR\App\Notepad++\nativeLang.xml"
+		Delete "$EXEDIR\App\Notepad++\nativeLang.xml"
+	${EndIf}
+	
 	${If} $0 != "English"
 		${If} ${FileExists} "$EXEDIR\App\Notepad++\localization\$0.xml"
 			CopyFiles /SILENT "$EXEDIR\App\Notepad++\localization\$0.xml" "$EXEDIR\App\Notepad++\"
